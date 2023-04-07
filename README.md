@@ -19,7 +19,7 @@ A simple text based adventure game
 <h4>Title Screen</h4>
 <img src="screen_shots/screenshot_01_title_screen.png" alt="Picture of title screen" >
 
-<h4>Title Screen</h4>
+<h4>Game Screen</h4>
 <img src="screen_shots/screenshot_02_first_game_page.png" alt="Picture of title screen" >
 
 
