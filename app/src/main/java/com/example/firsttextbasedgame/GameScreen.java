@@ -16,6 +16,7 @@ public class GameScreen extends AppCompatActivity{
     TextView text;
     Button button1, button2, button3, button4 ;
 
+    Story story = new Story( this);
 
     protected void onCreate(Bundle savedInstanceState){
 
@@ -30,7 +31,25 @@ public class GameScreen extends AppCompatActivity{
         button3 = (Button) findViewById(R.id.choiceButton3);
         button4 = (Button) findViewById(R.id.choiceButton4);
 
+        //take off caps
+        button1.setTransformationMethod(null);
+        button2.setTransformationMethod(null);
+        button3.setTransformationMethod(null);
+        button4.setTransformationMethod(null);
 
+        story.startingPoint();
+    }
+
+    public void button1(View view){
+
+    }
+    public void button2(View view){
+
+    }
+    public void button3(View view){
+
+    }
+    public void button4(View view){
 
     }
 }
